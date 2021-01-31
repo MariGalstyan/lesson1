@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Red from './colors/Red';
+import Green from './colors/Green';
+import Blue from './colors/Blue';
 
 function App() {
   return (
