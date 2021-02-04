@@ -4,6 +4,7 @@ import Red from './colors/Red';
 import Green from './colors/Green';
 import Blue from './colors/Blue';
 import SellOnline from './SellOnline/SellOnline';
+import MonthlyFee from './SellOnline/MonthlyFee';
 
 function App() {
   return (
