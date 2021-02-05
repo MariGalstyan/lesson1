@@ -6,6 +6,7 @@ import Blue from './colors/Blue';
 import SellOnline from './SellOnline/SellOnline';
 import MonthlyFee from './SellOnline/MonthlyFee';
 import SetUp from './SellOnline/SetUp';
+import Counter from './Counter/Counter';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <SellOnline />
       <MonthlyFee />
       <SetUp />
+      <Counter />
     </div>
   );
 }
