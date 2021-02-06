@@ -6,15 +6,16 @@ class ToDo extends React.Component {
    }
 
     render() {
-        const Tasks = this.state.tasks.map((task)=>{
+        const Tasks = this.state.tasks.map((tasks, index)=>{
             return (
                 <p key={index} className="task">
-                    {task}
+                    {tasks}
                 </p>
             )
         })
         return (
             <div>
+                <h1>ToDo component</h1>
                 <div>
                     <input
                       type="text"
@@ -22,7 +23,7 @@ class ToDo extends React.Component {
                     />
                     <button>Add</button>
                 </div>
-                <div>
+                <div className="tasks">
                     {Tasks}
                 </div>
             </div>
