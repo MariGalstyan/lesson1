@@ -1,8 +1,9 @@
-export default function Action() {
+const Action = ({sethandlePlusCount, sethandleMinusCount}) => {
     return (
-        <div className="Action">
-        <button onClick={this.sethandlePlusCount}>+</button>
-        <button onClick={this.sethandleMinusCount}>-</button>
+        <div>
+          <button onClick={sethandlePlusCount}>+</button>
+          <button onClick={sethandleMinusCount}>-</button>
         </div>
     )
 }
+export default Action;

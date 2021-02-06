@@ -1,5 +1,6 @@
-export default function Result() {
+const Result = ({counter}) => {
     return (
-        <p className='Result'>{this.state.counter}</p>
+        <p>{counter}</p>
     )
 }
+export default Result;

@@ -1,24 +1,29 @@
 import React from 'react';
-import Result from './Counter/Result';
-import Action from './Counter/Action';
+import Result from './Result';
+import Action from './Action';
 
 class Counter extends React.Component {
     state = {
         counter: 0,
         componentName: Counter,
     }
-    sethandlePlusCount = (SEvent)=> {
+    sethandlePlusCount = ()=> {
        this.setState({
            counter:this.state.counter+1
        })
     }
-    sethandleMinusCount = (SEvent)=> {
+    sethandleMinusCount = ()=> {
         this.setState({
             counter:this.state.counter-1
         })
     }
     render() {
-        const {counter} = this.state;
+        return (
+            <div>
+               <Action sethandlePlusCount={this.sethandlePlusCount} sethandleMinusCount={this.sethandleMinusCount}/>
+               <Result counter={this.state.counter} />
+            </div>
+        )
       
     }
 }
