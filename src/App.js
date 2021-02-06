@@ -7,6 +7,8 @@ import SellOnline from './SellOnline/SellOnline';
 import MonthlyFee from './SellOnline/MonthlyFee';
 import SetUp from './SellOnline/SetUp';
 import Counter from './Counter/Counter';
+import Action from './Counter/Action';
+import Result from './Counter/Result';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <MonthlyFee />
       <SetUp />
       <Counter />
+      <Result />
+      <Action />
     </div>
   );
 }
