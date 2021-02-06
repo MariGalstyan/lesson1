@@ -6,9 +6,10 @@
 // import SellOnline from './SellOnline/SellOnline';
 // import MonthlyFee from './SellOnline/MonthlyFee';
 // import SetUp from './SellOnline/SetUp';
-import Counter from './Counter/Counter';
-import Action from './Counter/Action';
-import Result from './Counter/Result';
+// import Counter from './Counter/Counter';
+// import Action from './Counter/Action';
+// import Result from './Counter/Result';
+import ToDo from './ToDo/ToDo';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       {/* <SellOnline />
       <MonthlyFee />
       <SetUp /> */}
-      <Counter />
+      {/* <Counter />
       <Result />
-      <Action />
+      <Action /> */}
+      <ToDo />
     </div>
   );
 }
