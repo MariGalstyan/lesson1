@@ -5,6 +5,7 @@ import Action from './Counter/Action';
 class Counter extends React.Component {
     state = {
         counter: 0,
+        componentName: Counter,
     }
     sethandlePlusCount = (SEvent)=> {
        this.setState({

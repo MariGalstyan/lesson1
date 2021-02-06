@@ -1,5 +1,5 @@
 export default function Result() {
     return (
-        <p className='Result'>{counter}</p>
+        <p className='Result'>{this.state.counter}</p>
     )
 }
